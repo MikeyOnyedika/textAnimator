@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>Text Animator</title>
+</head>
+<body>
+    <div class="container">
+
+        <div id="custom-popup">   </div>
+    
+        <div class="text-animator-container">
+            <h2 class="stage-title">Text Animation Stage</h2>
+            <p id="text-el"></p>
+        </div>
+    
+        <div class="settings-container">
+            <h2>Animation Settings</h2>
+            <textarea rows="5" placeholder="Enter text to animate here!"
+            id="text-area"></textarea>
+            
+            <h3>Animation Delay</h3>
+            <select id="choice-box">
+                <option selected>Select delay</option>
+                <option>100</option>
+                <option>200</option>
+                <option>450</option>
+                <option>600</option>
+                <option>800</option>
+                <option>1000</option>
+            </select>
+
+            <div>
+                <button type="button" class="animate-btn">Animate!</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
